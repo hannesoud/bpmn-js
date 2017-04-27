@@ -20,7 +20,7 @@ describe('Modeler', function() {
       done(err, warnings, modeler);
     });
   }
-
+  
 
   it('should import simple process', function(done) {
     var xml = require('../fixtures/bpmn/simple.bpmn');
